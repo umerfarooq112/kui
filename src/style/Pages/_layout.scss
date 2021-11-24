@@ -1,0 +1,81 @@
+
+// =========================================================
+//                          Main Layout Dashboard
+// =========================================================
+
+.main-layout-wrapper 
+{
+    background-color: #F8F8F8;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    .hr-css
+    {
+        margin: 0px auto !important;
+        width: 96%;
+        color: #E6E6E6;
+        opacity: 1;
+
+    }
+    //
+    // left Sidebar Menu
+    //
+    .left-sidebar
+    {
+        box-shadow: 0px 0px 20px #0000002B;
+        border-radius: 0px 20px 20px 0px;
+        width: 225px;
+        height: 100vh;
+        .sidebar-logo
+        {
+            border-radius: 0px 20px 0px 0px;
+            width: 100%;
+            background-color: white;
+            .logo-img
+            {
+                padding-top: 15px !important;
+                padding-bottom: 12px !important;
+            }
+        }
+        .sidebar-menu 
+        {
+            border-radius: 4px 0px 0px 4px;
+            .icon-img  
+            {
+                img
+                {
+                    width: 19px ;
+                    height: 12px;
+                }
+            }
+            .menu-text 
+            {
+                h3 
+                {
+                    line-height: 21px !important;
+                }
+            }
+        }
+    }
+    //
+    // Top bar 
+    .top-bar 
+    {
+        width: 100%; 
+        height: 22px !important     ;  
+    
+    }
+    // drop down topbar
+    .dropdown{
+        .topbar-dropdown
+        {
+            font: normal normal normal 14px/21px Poppins !important;
+            color: #04041C !important;
+        }
+        .topbar-dropdown .ant-dropdown-trigger > .anticon.anticon-down, .ant-dropdown-link > .anticon.anticon-down, .ant-dropdown-button > .anticon.anticon-down {
+            vertical-align: middle;
+            margin-left: 8px;
+        }
+    }
+}

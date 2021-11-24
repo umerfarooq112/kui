@@ -1,0 +1,104 @@
+.dashboard-wrapper {
+    padding-top: 91px;
+    padding-left: 249px;
+    margin-right: 26px;
+
+    .main-layout {
+        .cards {
+            @extend .cards;
+
+            .dot {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                display: inline-block;
+            }
+
+            .info {
+
+                display: flex;
+                justify-content: center;
+            }
+
+            .card-hr {
+                transform: rotate(90deg);
+                color: #EBEBEB;
+                opacity: 1;
+            }
+
+            .table-div {
+                border-top: 1px solid #E2E2E2;
+
+                th,
+                td {
+
+                    font: normal normal normal 10px/16px Poppins;
+                }
+
+                th {
+                    color: #686874;
+                }
+
+                td {
+                    color: #04041C;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #E2E2E2;
+                }
+
+                td:nth-child(2) {
+                    padding-left: 16px;
+                    text-align: center;
+                }
+
+                th:nth-child(2) {
+                    padding-left: 16px;
+                }
+
+                td:nth-child(3) {
+                    padding-left: 16px;
+                    text-align: center;
+                }
+
+                th:nth-child(3) {
+                    padding-left: 16px;
+                }
+
+                td:nth-child(4) {
+                    padding-left: 14px;
+                    text-align: center;
+                }
+
+                th:nth-child(4) {
+                    padding-left: 14px;
+                }
+            }
+            .view-all
+            {
+                text-decoration: underline !important;
+            }
+        }
+
+
+
+    }
+
+}
+
+
+
+
+// thead,tbody {
+//     display: block;
+// }
+// th,td {
+//     // padding: 8px 10px;
+//     border: 1px solid #ddd;
+//     width: 117px;
+//     // box-sizing: border-box;
+// }
+// tbody {
+//     height: 140px;
+//     overflow-y: scroll
+// }
+
