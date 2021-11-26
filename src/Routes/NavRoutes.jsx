@@ -6,7 +6,8 @@ import ProtectedRoutes from './ProtectedRoutes';
 import NotAllowed from '../Pages/NotAllowed';
 import Dashboard from '../Pages/Dashboard/index';
 import StudyingStudents from '../Pages/StudyingStudents/index';
-
+import GradeRecord from '../Components/StudyingStudents/Grade_Records'
+import Login from '../Pages/Auth/Login';
 
 
 
@@ -15,7 +16,9 @@ const NavRoutes = (props) => {
 
     return ( 
         <Switch>
+             <Route path='/login'    component={ Login } ></Route> 
              <Route path='/not-allowed'    component={ NotAllowed} ></Route> 
+             <Route path='/studying_students/:id'    component={ GradeRecord } ></Route> 
              <Route path='/studying_students'    component={ StudyingStudents } ></Route> 
              <Route path='/graduate_students'    component={ NotAllowed} ></Route> 
              <Route path='/academic_calendar'    component={ NotAllowed} ></Route> 

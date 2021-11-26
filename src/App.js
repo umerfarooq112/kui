@@ -6,7 +6,7 @@ import Layout from './Layout/index';
 function App() {
   return (
     <>
-    <Layout />
+    {/* <Layout /> */}
     <main>
 
       <NavRoutes />

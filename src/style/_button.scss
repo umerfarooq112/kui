@@ -1,12 +1,78 @@
 // topbar button css
-.btn-logout 
-{
+.btn-logout {
     width: 94px;
     height: 34px;
     background: #EEEEFB 0% 0% no-repeat padding-box;
     border-radius: 4px;
     opacity: 1;
-    border:none;
+    border: none;
     color: #595991;
     cursor: pointer;
+}
+
+// filter button
+
+.filter-dropdown-button {
+
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border-radius: 4px 4px 0px 0px;
+    font: normal normal medium 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    padding: 10px 13px;
+
+    &:hover {
+        color: black;
+    }
+}
+
+// export button
+
+.export-button {
+    padding: 7px 14px 7px 14px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #04041C;
+}
+
+.export-button-pdf {
+    @extend .export-button;
+    border: 1px solid #2F2F75;
+}
+
+
+// drop dwon submit button 
+.cancel-btn {
+    border: 1px solid var(--unnamed-color-2f2f75);
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border: 1px solid #2F2F75 !important;
+    border-radius: 4px !important;
+    margin-right: 15px;
+    color: #2F2F75 !important;
+}
+
+.submit-btn {
+    width: 86px;
+    height: 34px;
+    background: var(--unnamed-color-089752) 0% 0% no-repeat padding-box;
+    background: #089752 0% 0% no-repeat padding-box !important;
+    border-radius: 4px !important;
+    color: white !important;
+}
+
+
+.table-dropdown-btn {
+    border: 1px solid #CBCBCB;
+    border-radius: 4px;
+    width: 156px;
+    height: 34px;  
+    .text 
+    {
+        padding-left: 15px !important;
+    }
+    
 }

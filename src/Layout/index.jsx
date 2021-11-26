@@ -1,13 +1,11 @@
 
-import LeftSidebar from '../Components/Layout/LeftSidebar';
-import Topbar from '../Components/Layout/Topbar';
+
+import MainLayout from '../Components/Layout/index';
 
 const Layout = () => {
     return ( 
         <div className='main-layout-wrapper'>
-            <LeftSidebar />
-            <Topbar />
-
+            <MainLayout />
         </div>
      );
 }

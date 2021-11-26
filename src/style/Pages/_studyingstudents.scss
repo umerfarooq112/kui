@@ -4,4 +4,197 @@
     margin-right: 26px;
 
 
+    .main-layout {
+
+        .studying_student_table {
+
+            .ant-table-thead>tr>th,
+            .ant-table-tbody>tr>td,
+            .ant-table tfoot>tr>th,
+            .ant-table tfoot>tr>td {
+
+                // padding-top: 26px;
+                // padding-left: 41px;
+                // padding-bottom: 21px;
+                padding: 0px !important;
+            }
+
+            .ant-table-tbody>tr>td,
+            .ant-table-thead>tr>th {
+                padding-top: 26px !important;
+                padding-left: 41px !important;
+                padding-bottom: 21px !important;
+
+            }
+
+            .table-link {
+                color: #2422B4;
+                text-decoration: underline !important;
+            }
+
+            .ant-table-thead>tr>th {
+                background: none;
+                border-top: 1px solid #DEDEDE;
+                border-bottom: 1px solid #DEDEDE;
+                color: #686874;
+                font-weight: 500;
+                font-size: 14px;
+            }
+
+            .ant-table-thead>tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+                content: none;
+            }
+
+            .ant-table-tbody {
+                tr {
+                    border-color: inherit;
+                    border-style: solid;
+                    border-width: 0;
+                    font-size: 14px;
+                    border-top: 1px solid #DEDEDE;
+                    border-bottom: 1px solid #DEDEDE;
+
+                }
+            }
+
+            .ant-table-pagination.ant-pagination {
+                margin-top: 16px;
+                margin-right: 32px;
+                margin-bottom: 30px;
+            }
+
+            .ant-pagination-item {
+
+                display: none;
+            }
+
+            .ant-pagination-prev .ant-pagination-item-link,
+            .ant-pagination-next .ant-pagination-item-link {
+                border: none;
+                color: black;
+            }
+
+            .ant-pagination-prev,
+            .ant-pagination-next,
+            .ant-pagination-jump-prev,
+            .ant-pagination-jump-next {
+                min-width: 20px;
+            }
+
+            .ant-dropdown-menu-item:hover,
+            .ant-dropdown-menu-submenu-title:hover {
+                background-color: green;
+            }
+
+
+        }
+
+        .ant-input-affix-wrapper-lg {
+            border: 1px solid #D6D6D6 !important;
+            border-radius: 4px !important;
+        }
+
+        .ant-input-affix-wrapper>input.ant-input {
+            padding-left: 8px;
+            border: none;
+            outline: none;
+        }
+    }
+
+    .result-cards-table {}
+
+}
+
+.ant-dropdown-menu-item:hover,
+.ant-dropdown-menu-submenu-title:hover {
+    background-color: white !important;
+    cursor: default;
+}
+
+.ant-dropdown-menu-item {
+    width: 275px;
+}
+
+.swapRight-icon {
+    color: #D4D4D4 !important;
+    width: 18px;
+    height: 5px;
+    font-size: 22px;
+}
+
+.form-end-button {
+    text-align: end;
+}
+
+.dropdown-form {}
+
+.from-input {
+    margin-bottom: 10px !important;
+
+    .ant-input {
+        border-radius: 4px;
+    }
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 4px !important;
+}
+
+.ant-dropdown-menu {
+    border: 1px solid #D4D4D4;
+    border-radius: 0px 4px 4px 4px !important;
+}
+
+
+
+
+//
+// ################
+// Grade Record CSS
+// ################
+//
+//
+.student-gradeRecord-wrapper {
+
+    padding-top: 91px;
+    padding-left: 249px;
+    margin-right: 26px;
+
+   
+    .current-semester-table-card , .academic-record-table , .All-Record-table , .ant-table-thead>tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+        content: none;
+    }
+
+    .back-img {
+        width: 17px;
+        height: 17px;
+    }
+
+    .student-info {
+
+        .semester,
+        .scholarship,
+        .cgpa {
+            border-right: 1px solid #DBDBDB;
+            padding-right: 20px;
+        }
+
+    }
+}
+
+
+.result-cards-table 
+{
+     .current-semester-table-card .ant-table-thead > tr > th {
+        background: none;
+        border-bottom: 1px solid #DEDEDE;
+    }
+    .academic-record-table .ant-table-thead > tr > th {
+        background: none;
+        border-bottom: none;
+    }
+    .academic-record-table .ant-table-tbody > tr > td {
+         border-bottom: none ; 
+        
+    }
 }
