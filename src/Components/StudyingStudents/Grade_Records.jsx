@@ -2,12 +2,15 @@ import { Link } from "react-router-dom";
 import back_icon from "../../assets/dashboard-icons/back_icon.png";
 
 import ResultCardsTables from "./ResultCardsTables";
+import Layout from '../../Layout/index';
 
 
 
 const Grade_Records = () => {
   
   return (
+    <>
+    <Layout />
     <div className="student-gradeRecord-wrapper">
       <div className="back-link">
         <Link to="/studying_students">
@@ -205,6 +208,7 @@ const Grade_Records = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

@@ -112,7 +112,7 @@ const ResultCardsTables = () => {
       grade: <div className='d-flex align-items-center grade-column'> <div>D</div> <div className="ml-6-px grade-dimensions-academics grades-D "></div> </div>
     },
     {
-      key: "3",
+      key: "4",
       course_code: 10000201,
       course_name: "المدخل لعلوم الحديث الشريف",
       division: "First",
@@ -121,7 +121,7 @@ const ResultCardsTables = () => {
       grade: <div className='d-flex align-items-center grade-column'> <div>F</div> <div className="ml-6-px grade-dimensions-academics grades-F "></div> </div>
     },
     {
-      key: "3",
+      key: "5",
       course_code: 10000201,
       course_name: "المدخل لعلوم الحديث الشريف",
       division: "First",
@@ -267,6 +267,8 @@ const ResultCardsTables = () => {
           className=" mt-28-px current-semester-table-card"
           dataSource={semesterResult_dataSource}
           columns={semesterResultCard}
+          pagination={false}
+
         />
       </div>
       <div className="grade-scale-card mt-21-px pt-22-px   ">
@@ -278,13 +280,14 @@ const ResultCardsTables = () => {
           className=" mt-28-px academic-record-table"
           dataSource={academicsRecord_dataSource}
           columns={academicResultCard}
-          pagination={{ pageSize: 6 }}
+          pagination={false}
         />
       
         <Table
           className="All-Record-table "
           dataSource={annaualRecord_dataSource}
           columns={AnnualResultTable}
+          pagination={false}
         />
       </div>
     </div>

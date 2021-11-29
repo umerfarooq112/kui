@@ -20,7 +20,7 @@ const MainLayout = () => {
   const listenToScroll = () => {
     setTopbarActive(window.pageYOffset);
   };
-  console.log(topbar_active);
+  // console.log(topbar_active);
 
   useEffect(() => {
     window.addEventListener("scroll", listenToScroll);
@@ -50,9 +50,9 @@ const MainLayout = () => {
   const SidebarMenus = [
     {
       title: "Dashbaord",
-      url: "/",
+      url: "/dashboard",
       icon: HomeIcon,
-      match:''
+      match:'dashboard'
     },
     {
       title: "Studying Students",
@@ -98,7 +98,7 @@ const MainLayout = () => {
             )}
           >
             {
-              console.log(currentUrl,SingleItem.url,'where we match')
+              // console.log(currentUrl,SingleItem.url,'where we match')
             }
 
             <NavLink to={SingleItem.url}>

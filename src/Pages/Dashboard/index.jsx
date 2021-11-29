@@ -1,10 +1,16 @@
-import DashboardComponent from '../../Components/Dashboard/Index';
+import DashboardComponent from "../../Components/Dashboard/Index";
+import Layout from '../../Layout/index';
 
 const Dashboard = () => {
-    return ( 
-    <div className='dashboard-wrapper'>
+  return (
+    <>
+    <Layout />
+
+      <div className="dashboard-wrapper">
         <DashboardComponent />
-    </div> );
-}
- 
+      </div>
+    </>
+  );
+};
+
 export default Dashboard;
